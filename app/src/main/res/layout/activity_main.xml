@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutt"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Choose your favourite color"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/colorRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Red"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/colorGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Green"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/colorBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Blue"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/colorPurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purple"
+        android:layout_margin="10dp"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/show_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nothing is Selected."
+        android:textSize="20dp"
+        android:textColor="@color/teal_200"
+        android:layout_margin="15dp"/>
+
+</LinearLayout>
